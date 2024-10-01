@@ -1,0 +1,221 @@
+
+<style>
+body,html {
+  margin: 0;
+}
+.maitravaruna-section {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+
+
+.content-wrapper {
+  display: flex;
+  background: linear-gradient(300deg, #A9EEEA 0%, #C7D8E8 56%, #FFF6E2 100%);
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  aspect-ratio: 1.08;
+  object-fit: contain;
+  object-position: center;
+  width: 277px;
+  max-width: 100%;
+  margin-top: 50px;
+}
+
+.company-name {
+  color: #276F46;
+  margin-top: 30px;
+  font: 700 50px Recharge, sans-serif;
+}
+
+.company-type {
+  color: #121212;
+  margin-top: 15px;
+  font: 650 20px Inter, sans-serif;
+}
+
+.company-slogan {
+  color: #121212;
+  text-align: center;
+  margin-top: 35px;
+  font:  40px Trebuchet MS, sans-serif;
+}
+
+.info-container {
+  align-self: stretch;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.info-wrapper {
+  gap: 20px;
+  display: flex;
+}
+
+.leadership-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 37%;
+  margin-left: 60px;
+}
+
+.leadership-info {
+  display: flex;
+  margin:20 px;
+  gap: 15px;
+}
+
+.leadership-icons {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+.leadership-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 30px;
+}
+
+.leadership-icon-coo {
+  margin-top: 14px;
+}
+
+.leadership-names {
+  color: #121212;
+  flex-basis: auto;
+  flex-grow: 1;
+  font: 400 32px Trebuchet MS, sans-serif;
+  line-height: 45px;
+}
+
+.hiring-column {
+  display: flex;
+  flex-direction: column;
+  line-height: 45px;
+  width: 63%;
+  margin-left: 20px;
+}
+
+.hiring-info {
+  display: flex;
+  flex-grow: 1;
+  gap: 30px 110px;
+  color: #121212;
+  flex-wrap: wrap;
+  font: 400 32px Trebuchet MS, sans-serif;
+}
+
+.vertical-line {
+  height: 180px;
+  border: 2px solid black;
+  margin-left: 30px;
+}
+
+.hiring-text {
+  align-self: start;
+  flex-grow: 1;
+  width: 571px;
+  flex-basis: auto;
+  line-height: 45px;
+}
+
+.hiring-email {
+  color: #017BF4;
+}
+
+@media (max-width: 991px) {
+  .maitravaruna-section {opx
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+  }
+
+  .company-name {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .company-slogan {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .info-container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .info-wrapper {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .leadership-column,
+  .hiring-column {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .hiring-text {
+    max-width: 100%;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+</style>
+
+  <div class="content-wrapper">
+    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/48b335bc0d678769c9c52626bb7949a1825d92a79467ae5499232e53d040d074?placeholderIfAbsent=true&apiKey=8c60d58e2e3b4273adb23eb573061039" alt="Maitravaruna Technologies Logo" class="logo" />
+    <h0 class="company-name">MAITRAVARUNA</h0>
+    <h2 class="company-type">TECHNOLOGIES PRIVATE LIMITED</h2>
+    <p class="company-slogan">Advanced Engineering to take a giant leap for mankind</p>
+    <div class="info-container">
+      <div class="info-wrapper">
+        <div class="leadership-column">
+          <div class="leadership-info">
+            <div class="leadership-icons">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/149305961a202c6fa58b1191776207cabcf12744a15fbc3632987c5b63a462e2?placeholderIfAbsent=true&apiKey=8c60d58e2e3b4273adb23eb573061039" alt="CEO Icon" class="leadership-icon" />
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9cd72f2bbe65b8d522bfd07abc1403ff58978b0053beff94361ed4ac72d3f897?placeholderIfAbsent=true&apiKey=8c60d58e2e3b4273adb23eb573061039" alt="COO Icon" class="leadership-icon leadership-icon-coo" />
+            </div>
+            <p class="leadership-names">
+              Saikrishna BVS - CEO<br />
+              Amit Ishwar Mehta - COO
+            </p>
+          </div>
+        </div>
+        <div class="hiring-column">
+          <div class="hiring-info">
+            <div class="vertical-line" aria-hidden="true"></div>
+            <p class="hiring-text">
+              We are hiring!<br />
+              Reach out to us for great opportunities.<br />
+              <img src="email logo.svg" alt="COO Icon" class="leadership-icon leadership-icon-coo" />
+              <a href="mailto:careers@maitravaruna.com" class="hiring-email">careers@maitravaruna.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
